@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<header class="intro">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Répertoire téléphonique</title>
+        <link rel="stylesheet" href="{{url_for('static', filename='super.css')}}">
+    </head>
+    <body>
+        <center>
+            <h1 id="para">REPERTOIRE TELEPHONIQUE</h1>
+            <h2 id="para2">Rechercher un numéro</h2>
+            <form>
+                <p>Nom : {{nomr}}<br>Numéro : {{numr}}</p>
+                <p><a href="{{ url_for('index') }}">Retour au menu principal</a></p>
+            </form>
+        </center>
+</body>
+</html>
+</header>
